@@ -1,10 +1,12 @@
 <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
-<div class="container" style="text-align:center;">
-  <h1>
-    {{ title }}
-  </h1>
-  <personal-info></personal-info>
-  <social-media></social-media>
+<div class="container flex justify-center items-center">
+  <div class="app-root shadow-lg">
+    <span class="b title">
+      {{ title }}
+    </span>
+    <personal-info></personal-info>
+    <social-media></social-media>
+  </div>
 </div>
 
 <router-outlet></router-outlet>
