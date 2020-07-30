@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class PersonalInfoComponent implements OnInit {
   major:string = "Management Information Systems";
   minor:string = "Computer Information Sciences";
-  currentJob:string = "netPark LLC.";
-  currentJobLink:string = "https://www.netpark.us";
-  jobRoles:Array<string> = ["Software Developer -", "Database Analyst -", "Program Analyst"];
+  currentJob:string = "Neudesic";
+  currentJobLink:string = "https://www.neudesic.com/";
+  jobRoles:Array<string> = ["Software Developer"];
   graduatingCollege:string = "The Ohio State University";
 
   constructor() { }
