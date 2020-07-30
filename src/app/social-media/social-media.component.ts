@@ -11,7 +11,7 @@ export class SocialMediaComponent implements OnInit {
   twitterLink:string = "https://twitter.com/chiefkeef07";
   instagramLink:string = "https://www.instagram.com/chiefkeef07/";
   linkedInLink:string = "https://www.linkedin.com/in/alex-keefer-a4524510b";
-  resumeLink:string = "http://alexkeefer.com/Resume_20190715232000.pdf";
+  resumeLink:string = "http://alexkeefer.com/Resume_20190925194500.pdf";
 
   constructor() { }
 
