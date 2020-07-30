@@ -7,12 +7,14 @@ import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { ParticlesModule } from 'angular-particle';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PersonalInfoComponent,
-    SocialMediaComponent
+    SocialMediaComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
