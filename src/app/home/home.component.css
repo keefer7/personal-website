@@ -1,0 +1,9 @@
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-link a {
+    font-weight: bold;
+    text-decoration: none;
+}
