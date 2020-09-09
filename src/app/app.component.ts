@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Alex Keefer\'s Personal Portfolio';
-  myStyle: object = {};
+    myStyle: object = {};
     myParams: object = {};
     width: number = 100;
     height: number = 100;

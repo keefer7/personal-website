@@ -1,0 +1,35 @@
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    padding: 10px;
+}
+
+label {
+    margin-right: 4px;
+}
+
+.contact-form {
+    width: 350px;
+}
+
+input, textarea {
+    height: 28px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.submit-button {
+    height: 28px;
+    color: white;
+    background-color: #BB0000;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: #520000;
+    cursor: pointer;
+}

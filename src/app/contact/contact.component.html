@@ -1,14 +1,22 @@
-<div>
-  <div>
-    <label for="name">Name:</label>
+<span class="b title">
+  {{ title }}
+</span>
+<form
+  action="https://formspree.io/xvowlngz"
+  class="contact-form"
+  method="POST"
+>
+  <div class="input-field">
+    <div class="flex justify-start"><label>Name:</label></div>
     <input id="name" type="text"/>
   </div>
-  <div>
-    <label for="subject">Subject:</label>
-    <input id="subject" type="text"/>
+  <div class="input-field">
+    <div class="flex justify-start"><label>Email:</label></div>
+    <input type="text" name="_replyto">
   </div>
-  <div>
-    <label for="message">Message:</label>
-    <textarea id="message"></textarea>
+  <div class="input-field">
+    <div class="flex justify-start"><label>Message:</label></div>
+    <textarea name="message"></textarea>
   </div>
-</div>
+  <button class="submit-button shadow-md rounded" type="submit">Send</button>
+</form>
